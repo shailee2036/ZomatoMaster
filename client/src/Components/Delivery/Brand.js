@@ -48,11 +48,11 @@ const Brand = (props) => {
     <div className="my-5 lg:mt-20 mt-8 p-10">
       <Slider {...settings}>
         {logos.map((logo) => (
-          <div className="w-38 h-38 lg:px-5 flex items-center bg-white shadow justify-center">
+          <div className="w-38 h-38 lg:px-5 flex items-center bg-white shadow justify-center rounded">
             <img
               src={logo}
               alt="brand"
-              className="w-full h-full object-cover object-center"
+              className="w-full h-full object-cover object-center rounded-sm"
             />
           </div>
         ))}
